@@ -185,7 +185,7 @@ def eval(output, labels, img_width, img_height):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=25, help="number of epochs")
-parser.add_argument("--data_folder", type=str, default="/home/xingyu/Desktop/Project/Pascal_VOC", help="path to dataset")
+parser.add_argument("--data_folder", type=str, default="/home/pragati/Desktop/Project/Pascal_VOC", help="path to dataset")
 parser.add_argument("--batch_size", type=int, default=16, help="size of each image batch")
 parser.add_argument("--weights_path", type=str, default="weights/Dartnet_VOC_weights_ini", help="path to weights file")
 parser.add_argument("--img_size", type=int, default=416, help="size of each image dimension")
